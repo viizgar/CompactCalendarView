@@ -895,7 +895,7 @@ class CompactCalendarController {
                     }
                 } else {
                     dayPaint.setStyle(Paint.Style.FILL);
-                    dayPaint.setColor(defaultCalenderTextColorToUse);
+                    dayPaint.setColor(calenderTextColor);
                     canvas.drawText(String.valueOf(day), xPosition, yPosition, dayPaint);
                 }
             }
