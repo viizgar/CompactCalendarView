@@ -261,7 +261,7 @@ public class CompactCalendarTab extends Fragment {
         currentCalender.setTime(new Date());
         currentCalender.set(Calendar.DAY_OF_MONTH, 1);
         Date firstDayOfMonth = currentCalender.getTime();
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 28; i++) {
             currentCalender.setTime(firstDayOfMonth);
             if (month > -1) {
                 currentCalender.set(Calendar.MONTH, month);
